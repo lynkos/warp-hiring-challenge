@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readonly LOG_FILE="$1"
+readonly LOG_FILE="${1:-space_missions.log}"
 
 # Print table header
 printf "%-10s | %-10s | %-11s | %-9s | %-9s | %-15s | %-12s | %-10s\n" \
