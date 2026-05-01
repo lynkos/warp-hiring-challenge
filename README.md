@@ -6,3 +6,24 @@ This is a programming challenge for candidates who are interested in applying to
 Participation in the challenge is optional. You can still submit an application without doing the hiring challenge.
 
 Get started by reading the [challenge description](mission_challenge.md). Good luck!
+
+## Requirements
+- [x] Bash
+
+## Usage
+```sh
+chmod +x mission.sh
+./mission.sh space_missions.log
+```
+
+## Reasoning
+1. Filter by the following:
+   - Destination: Mars
+   - Status: Completed
+
+2. Sort by Duration (days) in descending order
+
+## Solution
+```
+2065-06-05   | WGU-0200   | Mars            | Completed       | 4         | 1629            | 98.82        | XRT-421-ZQP    
+```
